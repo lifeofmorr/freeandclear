@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Free and Clear logo">
+  <defs>
+    <linearGradient id="fcg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0071e3"/>
+      <stop offset="1" stop-color="#42a5f5"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#fcg)"/>
+  <path d="M17 33.5 L27.5 44 L47 22" fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 52 H50" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.55"/>
+</svg>

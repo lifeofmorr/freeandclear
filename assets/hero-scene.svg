@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-label="Illustration: every debt on one ledger page, paid down step by step to zero">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef5ff"/>
+      <stop offset="1" stop-color="#f5f5f7"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0071e3"/>
+      <stop offset="1" stop-color="#42a5f5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="620" fill="url(#sky)"/>
+  <circle cx="1052" cy="96" r="46" fill="#ffd60a" opacity="0.9"/>
+  <circle cx="1052" cy="96" r="64" fill="#ffd60a" opacity="0.18"/>
+  <!-- ledger card -->
+  <g>
+    <rect x="70" y="70" width="620" height="480" rx="22" fill="#ffffff" stroke="#d2d2d7"/>
+    <rect x="70" y="70" width="620" height="64" rx="22" fill="#1d1d1f"/>
+    <text x="104" y="111" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="25" font-weight="700" fill="#ffffff">Every debt. One page.</text>
+    <g font-family="-apple-system,Helvetica,Arial,sans-serif">
+      <circle cx="112" cy="178" r="7" fill="#0071e3"/><rect x="134" y="168" width="300" height="19" rx="9" fill="#e8e8ec"/><rect x="520" y="168" width="120" height="19" rx="9" fill="#d2d2d7"/>
+      <circle cx="112" cy="232" r="7" fill="#0071e3"/><rect x="134" y="222" width="252" height="19" rx="9" fill="#e8e8ec"/><rect x="548" y="222" width="92" height="19" rx="9" fill="#d2d2d7"/>
+      <circle cx="112" cy="286" r="7" fill="#34c759"/><rect x="134" y="276" width="208" height="19" rx="9" fill="#e8e8ec"/><rect x="572" y="276" width="68" height="19" rx="9" fill="#d2d2d7"/>
+      <circle cx="112" cy="340" r="7" fill="#34c759"/><rect x="134" y="330" width="164" height="19" rx="9" fill="#e8e8ec"/><rect x="596" y="330" width="44" height="19" rx="9" fill="#d2d2d7"/>
+      <path d="M104 398 L116 410 L136 386" fill="none" stroke="#0a7d3b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="150" y="388" width="180" height="19" rx="9" fill="#e8e8ec"/><text x="540" y="405" font-size="24" font-weight="700" fill="#0a7d3b">$0 pile</text>
+      <line x1="104" y1="452" x2="656" y2="452" stroke="#d2d2d7" stroke-width="2"/>
+      <text x="104" y="502" font-size="23" fill="#6e6e73">Counted once. Nothing missed.</text>
+    </g>
+  </g>
+  <!-- payoff steps -->
+  <g>
+    <rect x="742" y="330" width="74" height="220" rx="10" fill="url(#bar)"/>
+    <rect x="832" y="386" width="74" height="164" rx="10" fill="url(#bar)" opacity="0.85"/>
+    <rect x="922" y="442" width="74" height="108" rx="10" fill="url(#bar)" opacity="0.7"/>
+    <rect x="1012" y="498" width="74" height="52" rx="10" fill="#34c759"/>
+    <text x="1012" y="486" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="31" font-weight="700" fill="#0a7d3b">$0</text>
+    <text x="742" y="300" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="23" fill="#6e6e73">One payment,</text>
+    <text x="742" y="272" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="23" font-weight="700" fill="#1d1d1f">month by month</text>
+    <path d="M742 580 H1086" stroke="#d2d2d7" stroke-width="2"/>
+  </g>
+</svg>
